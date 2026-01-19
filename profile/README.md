@@ -1,5 +1,9 @@
 # IMWG Indonesia (Information Management Working Group)
 
+> [!IMPORTANT]
+> ### 🚨 Aktivasi Terkini: SENYAR-25
+> Pantau perkembangan tugas dan kontribusi operasional di: **[Papan Tugas SENYAR-25](https://github.com/IMWG-Indonesia/senyar25-ops)**
+
 IMWG Indonesia adalah jejaring kolaborasi para spesialis **Information Management** di Indonesia yang mendukung respons kemanusiaan saat terjadi **aktivasi bencana**. Dukungan kami berfokus pada mempercepat pengambilan keputusan operasional melalui **data yang dapat dipakai**, **pemetaan**, dan **produk informasi** yang ringkas serta tepat waktu.
 
 Bidang dukungan teknis yang umum kami kerjakan meliputi:
