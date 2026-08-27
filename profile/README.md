@@ -1,40 +1,60 @@
 # IMWG Indonesia (Information Management Working Group)
 
 > [!IMPORTANT]
-> ### 🚨 Aktivasi Terkini: SENYAR-25
-> Pantau perkembangan tugas dan kontribusi operasional di: **[Papan Tugas SENYAR-25](https://github.com/IMWG-Indonesia/senyar25-ops)**
+> ### 🚨 Aktivasi Terkini: GEMPA-NTT-26
+> Respons Gempa NTT sedang berjalan dan papan tugasnya sudah aktif.
+>
+> **[Papan Tugas GEMPA-NTT-26](https://github.com/orgs/IMWG-Indonesia/projects/5/views/1)** · **[Repositori dan cara kerjanya](https://github.com/IMWG-Indonesia/gempa-ntt-26-ops)**
+>
+> Punya waktu luang dua atau tiga jam? Setiap tugas mencantumkan perkiraan lama pengerjaan, jadi bisa dipilih yang muat di jadwal Anda.
 
 IMWG Indonesia adalah jejaring kolaborasi para spesialis **Information Management** di Indonesia yang mendukung respons kemanusiaan saat terjadi **aktivasi bencana**. Dukungan kami berfokus pada mempercepat pengambilan keputusan operasional melalui **data yang dapat dipakai**, **pemetaan**, dan **produk informasi** yang ringkas serta tepat waktu.
 
-Bidang dukungan teknis yang umum kami kerjakan meliputi:
-- Analisis geospasial (GIS) dan produksi peta (statis maupun web-based)
-- Visualisasi data (dashboard, infografis, ringkasan 1 halaman)
-- Mobile Data Collection (MDC) dan pengelolaan formulir/data
-- Analitik situasional dan kebutuhan (assessment/ENA) untuk mendukung perencanaan
-- Integrasi dataset lintas sumber serta penguatan standar/metadata
+Bidang dukungan teknis yang umum kami kerjakan:
 
-## Cara Kerja (Model Kolaborasi)
-Saat aktivasi, IMWG Indonesia membantu menerjemahkan kebutuhan operasional menjadi **tugas-tugas terukur (micro-tasks)** yang bisa dikerjakan secara terdistribusi oleh kontributor dengan keahlian yang relevan.
+- Analisis geospasial (GIS) dan produksi peta, statis maupun berbasis web
+- Visualisasi data: dasbor, infografis, ringkasan satu halaman
+- Pendataan bergerak (MDC) dan pengelolaan formulir serta datanya
+- Analitik situasional dan kebutuhan untuk mendukung perencanaan
+- Integrasi data lintas sumber serta penguatan standar dan metadata
 
-Alur kerja yang kami gunakan:
-**Todo → Prioritas hari ini → In progress → Proses review → Done**
+## Cara Kerja
 
-Prinsip sederhana:
+Saat aktivasi, kebutuhan operasional diterjemahkan menjadi **tugas terukur** yang bisa dikerjakan secara terdistribusi oleh kontributor dengan keahlian yang relevan. Setiap aktivasi punya papan tugas dan repositorinya sendiri, sehingga arsip dan konteksnya tetap rapi untuk aktivasi berikutnya.
+
+Prinsip yang kami pegang:
+
 - **Data sebagai alat dialog**, bukan sekadar laporan akhir
 - **Peta sebagai alat kolaborasi**, bukan hanya bahan presentasi
+- **Kontribusi tidak harus penuh waktu.** Dua jam yang jelas arahnya lebih berguna daripada seminggu yang tidak tahu mau mengerjakan apa.
 
-## Platform Kerja
-- **GitHub** sebagai “rumah tasking”: kebutuhan dibuat sebagai issue/tugas dengan format jelas (apa, tujuan, hasil, format, prioritas, deadline, sumber data, requester).
-- **Matrix/Element** sebagai ruang diskusi: koordinasi dan diskusi teknis dilakukan per topik (thread), serta link task dipost untuk memudahkan jejak keputusan.
+Penjelasan lengkap cara memakai papan, arti label, dan alur kolomnya ada di repositori masing-masing aktivasi.
 
-> [!NOTE] 
-> Setiap aktivasi memiliki room/kanal sendiri (mis. `SENYAR-25`) agar arsip dan konteks tetap rapi untuk aktivasi berikutnya.
+## Tiga Ruang, Tiga Peran
 
-## Tata Kelola Data & Etika Berbagi
-- Setiap produk/dataset minimal mencantumkan: **sumber**, **timestamp (as-of)**, dan **confidence/tingkat keyakinan**.
-- **Default: tidak membagikan PII/data sensitif** pada output publik. Data kontak untuk verifikasi disimpan terbatas sesuai persetujuan (consent) dan kebijakan berbagi yang disepakati.
+- **WhatsApp sebagai ruang obrolan.** Diskusi cepat, tanya jawab, dan koordinasi harian berlangsung di grup aktivasi. Ruang ini dipilih karena paling rendah hambatannya bagi kontributor baru.
+- **GitHub sebagai rekam jejak teknis.** Tempat kebutuhan dituliskan, keputusan dicatat beserta alasannya, dan hasil kerja ditautkan.
+- **Folder kerja bersama sebagai tempat berkas.** Data mentah dan produk jadi disimpan di Google Drive, akses lewat permintaan. GitHub hanya memuat tautannya.
 
-## Bergabung & Berkontribusi
-Jika Anda ingin berkontribusi pada aktivasi yang sedang berjalan:
-1. Masuk ke **papan tugas GitHub** dan pilih issue sesuai label keahlian (mis. `gis`, `data`, `mdc`, `infographic`, `qa-qc`) - _melalui undangan_
-2. Diskusikan progres/pertanyaan di **thread Matrix/Element** dengan menyertakan tautan issue - _melalui undangan_
+> [!NOTE]
+> **Satu kebiasaan yang perlu dijaga:** apa pun yang disepakati di WhatsApp, entah pergeseran tenggat, pergantian sumber data, atau siapa mengambil apa, mohon disalin kembali sebagai komentar di tugasnya. Obrolan cepat memang tempatnya di WhatsApp, tetapi ingatan bersama kita tersimpan di sini.
+
+## Tata Kelola Data
+
+- Setiap produk mencantumkan minimal **sumber** dan **tanggal data (as-of)**
+- **Data pribadi tidak dibagikan** pada keluaran yang beredar luas. Data kontak untuk verifikasi disimpan terbatas sesuai persetujuan dan kebijakan berbagi yang disepakati.
+- **Jangan menempel data pribadi di kolom komentar.** Unggah ke folder kerja bersama, tautkan saja.
+- Kredensial akun pendataan tidak pernah disimpan di lembar kerja atau repositori
+
+## Ikut Berkontribusi
+
+Buka papan tugas aktivasi yang sedang berjalan, pilih tugas sesuai keahlian dan waktu luang Anda, lalu tulis di kolom komentar bahwa Anda mengambilnya.
+
+Belum pernah memakai GitHub? Tidak masalah, dan tidak ada yang bisa dirusak karena semua versi tersimpan. Panduan bergambar ada di folder `howto` pada repositori aktivasi.
+
+## Arsip Aktivasi
+
+| Aktivasi | Repositori | Status |
+|---|---|---|
+| GEMPA-NTT-26 | [gempa-ntt-26-ops](https://github.com/IMWG-Indonesia/gempa-ntt-26-ops) | Berjalan |
+| SENYAR-25 | [senyar25-ops](https://github.com/IMWG-Indonesia/senyar25-ops) | Selesai |
